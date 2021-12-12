@@ -27,5 +27,5 @@ form.addEventListener('submit', (event) => {
     console.log(akanName);
   }
   document.getElementById("results").innerHTML = "Congratulations!!<br>Your Akan name is " + akanName;
-  document.getElementById("form").reset();
+  document.getElementById("form").reset();  
 });
