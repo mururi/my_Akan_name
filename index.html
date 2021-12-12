@@ -11,12 +11,30 @@
 <body>
   <div class="container">
     <h1>my Akan Name</h1>
-    <div class="box">
-      <div class="row" id="row_1">
-
+    <div class="row">
+      <div class="col" id="col_1">
+        <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name. Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</p>
+        <p>This application will automatically generate your Akan name based on your day of birth and gender.</p>
       </div>
-      <div class="row" id="row_2">
-        
+      <div class="col" id="col_2">
+        <form>
+          <h2>Get your Akan name here!</h2>
+          <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+          </div>
+          <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+          </div>
+          <div class="date">
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date" required>
+          </div>
+          <div>
+            <input type="submit">
+          </div>
+        </form>
       </div>
     </div>
   </div>
