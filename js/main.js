@@ -16,5 +16,14 @@ form.addEventListener('submit', (event) => {
   console.log(day);
 
   let akanName;
-  maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi"]
-})
+  maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+  if (gender === "male") {
+    akanName = maleNames[dayOfWeek];
+    console.log(akanName);
+  } else {
+    akanName = femaleNames[dayOfWeek];
+    console.log(akanName);
+  }
+});
