@@ -1,0 +1,1 @@
+console.log(getElementById("date").value);
