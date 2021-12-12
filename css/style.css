@@ -5,3 +5,10 @@
   margin: 0;
   font-family: 'Sulphur Point', sans-serif;
 }
+
+.container {
+  min-height: 100vh;
+  width: auto;
+  background-color: #F7F8F3;
+}
+
