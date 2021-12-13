@@ -3,6 +3,7 @@
 #### By **Dennis Kiboi** 
 ## Description 
 The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.
+
 This is a web application that will automatically generate your Akan name based on your day of birth and gender.
 
 ![My Akan Name App](/images/myAkanNameApp.png)
