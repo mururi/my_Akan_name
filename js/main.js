@@ -26,6 +26,6 @@ form.addEventListener('submit', (event) => {
     akanName = femaleNames[dayOfWeek];
     console.log(akanName);
   }
-  document.getElementById("results").innerHTML = "Congratulations!!<br>Your Akan name is " + akanName;
+  document.getElementById("results").innerHTML = `<h4>Congratulations!!</h4><p>Your Akan name is</p><h5>${akanName}</h5>`;
   document.getElementById("form").reset();  
 });
