@@ -3,12 +3,11 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   
   let gender = document.querySelector('input[name="gender"]:checked').value;
-  console.log(gender); //just for debugging
   let dateOfBirth = document.getElementById('date').value;
-  console.log(dateOfBirth);
-  dateOfBirth = new Date(dateOfBirth);
-  console.log(dateOfBirth);
-  let dayOfWeek = dateOfBirth.getDay();
+  
+  dateOfBirth = new Date(dateOfBirth); //create date object
+  
+  let dayOfWeek = dateOfBirth.getDay(); //get day of week, Sunday is index 0
   console.log(dayOfWeek);
 
   const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
