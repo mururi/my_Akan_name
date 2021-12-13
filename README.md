@@ -2,11 +2,11 @@
 #### Akan Name Generator Web App, Dec 13 2021 
 #### By **Dennis Kiboi** 
 ## Description 
-The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name. Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.
-
-This application will automatically generate your Akan name based on your day of birth and gender.
+The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.
+This is a web application that will automatically generate your Akan name based on your day of birth and gender.
 
 ![My Akan Name App](/images/myAkanNameApp.png)
+
 ## Setup/Installation Requirements 
 ### Requirements
 * A computer, tablet or phone
