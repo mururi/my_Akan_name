@@ -15,10 +15,8 @@ form.addEventListener('submit', (event) => {
 
   if (gender === "male") {
     akanName = maleNames[dayOfWeek];
-    console.log(akanName);
   } else {
     akanName = femaleNames[dayOfWeek];
-    console.log(akanName);
   }
   document.getElementById("results").innerHTML = `<h4>Congratulations!!</h4><p>Your Akan name is</p><h5>${akanName}</h5>`;
   document.getElementById("form").reset();  
