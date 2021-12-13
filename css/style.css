@@ -10,5 +10,52 @@
   min-height: 100vh;
   width: auto;
   background-color: #F7F8F3;
+  padding: 60px 10% 150px 10%;
+  text-align: center;
+  background-image: url("../images/pattern_2.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 
+.row {
+  display: flex;
+  max-width: 950px;
+  min-height: 600px;
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.20);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.col {
+  flex-basis: 50%;
+  padding: 60px 50px;
+}
+
+#col_1 {
+  background-color: #A54202;
+  text-align: justify;
+  font-size: 19px;
+  line-height: 22px;
+  color: white;
+}
+
+#col_2 {
+  background-color: #f7f8f3;
+  text-align: left;
+}
+
+#form h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+#form h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+#form h3
