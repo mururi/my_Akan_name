@@ -8,11 +8,6 @@ form.addEventListener('submit', (event) => {
   dateOfBirth = new Date(dateOfBirth); //create date object
   
   let dayOfWeek = dateOfBirth.getDay(); //get day of week, Sunday is index 0
-  console.log(dayOfWeek);
-
-  const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  let day = weekDays[dayOfWeek];
-  console.log(day);
 
   let akanName;
   maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
